@@ -20,7 +20,10 @@ module.exports = {
   rules: {
     'no-console': 'off',
     'no-shadow': 'off',
-    'no-unused-vars': 'off',
+    'space-before-function-paren': 'off', // Disable space before function parentheses rule
+    'space-infix-ops': 'off',            // Disable spaces around infix operators
+    'space-before-blocks': 'off',        // Disable space before blocks
+    'no-multi-spaces': 'off',   
     'no-restricted-syntax': [
       'error',
       'LabeledStatement',
